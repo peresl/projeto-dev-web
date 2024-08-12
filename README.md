@@ -23,4 +23,4 @@ Este projeto é uma aplicação web simples que simula o gerenciamento de regras
 1. **Clone o Repositório**
 
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/peresl/projeto-dev-web.git
