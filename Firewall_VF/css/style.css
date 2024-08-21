@@ -1,0 +1,139 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('/Firewall_VF/img/imagem.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    color: white;
+}
+
+.choice {
+    color: white;
+}
+
+select {
+    width: 100%; /* Ajusta a largura para preencher o contêiner */
+    padding: 12px; /* Aumenta o padding interno */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: coral;
+    box-sizing: border-box;
+    margin-bottom: 15px; /* Espaçamento inferior para alinhamento */
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="password"] {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: coral;
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color: coral;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.password-container input[type="password"], 
+.password-container input[type="text"] {
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    height: 40px;
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+#togglePassword {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#togglePassword:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#rulesList li {
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    color: white; /* Altera a cor do texto para branco */
+    background-color: rgba(0, 0, 0, 0.7); /* Adiciona um fundo com opacidade */
+    padding: 10px; /* Adiciona padding ao redor do texto */
+    margin-bottom: 5px; /* Espaçamento entre as regras */
+    border-radius: 5px; /* Arredonda os cantos do item da lista */
+    list-style-type: none; /* Remove os marcadores da lista */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0275d8;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #025aa5;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+}
