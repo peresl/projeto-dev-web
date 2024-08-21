@@ -18,8 +18,8 @@ function updateTogglePasswordIcon() {
 
     // Define o ícone com base no tipo do input de senha
     if (passwordField.getAttribute('type') === 'password') {
-        togglePasswordBtn.innerHTML = '<i class="fas fa-eye"></i>';
-    } else {
         togglePasswordBtn.innerHTML = '<i class="fas fa-eye-slash"></i>';
+    } else {
+        togglePasswordBtn.innerHTML = '<i class="fas fa-eye"></i>';
     }
 }
