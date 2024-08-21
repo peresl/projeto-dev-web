@@ -15,7 +15,7 @@ Este projeto é uma aplicação web com duas partes principais:
 
 ## Requisitos
 
-- Um servidor local (por exemplo, usando Node.js) para servir as páginas HTML e fornecer a API de autenticação.
+- Um servidor local (por exemplo, usando o Live Server ou Node.js) para servir as páginas HTML e fornecer a API de autenticação.
 - Conexão com a internet para carregar o ícone do Font Awesome.
 
 ## Configuração
