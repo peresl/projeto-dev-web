@@ -1,8 +1,0 @@
-{
-    "users": [
-      { "id": 1, "username": "admin", "password": "admin" },
-      { "id": 2, "username": "Clebson", "password": "Flameng0" },
-      { "id": 3, "username": "Jardson", "password": "GatoLaranja" }
-    ]
-}
-  
