@@ -1,0 +1,17 @@
+{
+    "database": {
+        "host": "localhost",
+        "port": 27017,
+        "name": "DataBase",
+        "username": "clebson",
+        "password": "ifpb"
+    },
+    "server": {
+        "port": 3000
+    },
+    "jwt": {
+        "secret": "seu_segredo_aqui",
+        "expiresIn": "1h"
+    }
+}
+
